@@ -1,10 +1,13 @@
 const { Schema, mongo } = require('mongoose');
 
-const tallySchema = new Schema({
+const collegeSchema = new Schema({
+    name: Schema.Types.String,
     state: Schema.Types.String,
-    infected: Schema.Types.Number,
-    recovered: Schema.Types.Number,
-    death: Schema.Types.Number,
+    min_pac: Schema.Types.Number,
+    max_fees: Schema.Types.Number,
+    city: Schema.Types.String,
+    exam: Schema.Types.Array,
+    course: Schema.Types.String
 })
 
-exports.tallySchema = tallySchema;
+exports.collegeSchema = collegeSchema;

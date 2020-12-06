@@ -1,10 +1,10 @@
 
 //const mongodb = require('mongodb');
 
-const mongoURI = "mongodb://localhost:27017" + "/covidtally"
+const mongoURI = "mongodb://localhost:27017" + "/collegeDetails"
 
 let mongoose = require('mongoose');
-const { tallySchema } = require('./schema')
+const { collegeSchema } = require('./schema')
 
 
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -12,7 +12,6 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .catch(err => {
         console.log("error while connection", err)
     });
-collection_connection = mongoose.model('covidtally', tallySchema)
+let collegeModel = mongoose.model('collegerecords', collegeSchema)
 
-
-exports.connection = collection_connection;
+exports.connection = collegeModel;
