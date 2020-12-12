@@ -6,8 +6,8 @@ const data = [
         state: 'Tamil Nadu',
         exam: ['CAT', 'GMAT'],
         course: 'PGPM',
-        max_fees: 20,
-        min_pac: 35.5
+        maxFees: 20,
+        minPackage: 35.5
     },
     {
         name: "Indian Institute of Management",
@@ -15,8 +15,8 @@ const data = [
         state: 'Karnataka',
         exam: ['CAT', 'GMAT'],
         course: 'PGPM',
-        max_fees: 23.15,
-        min_pac: 40.5
+        maxFees: 23.15,
+        minPackage: 40.5
     },
     {
         name: "Indian Institute of Technology",
@@ -24,8 +24,8 @@ const data = [
         state: 'Maharastra',
         exam: ['JEE ADVANCE'],
         course: 'B.Tech',
-        max_fees: 6.15,
-        min_pac: 45.5
+        maxFees: 6.15,
+        minPackage: 45.5
     },
     {
         name: "Indian Institute of Technology",
@@ -33,8 +33,8 @@ const data = [
         state: 'Uttar Pradesh',
         exam: ['JEE ADVANCE'],
         course: 'B.Tech',
-        max_fees: 7.15,
-        min_pac: 35.5
+        maxFees: 7.15,
+        minPackage: 35.5
     },
     {
         name: "Indian Institute of Technology",
@@ -42,8 +42,8 @@ const data = [
         state: 'Himachal Pradesh',
         exam: ['JEE ADVANCE'],
         course: 'B.Tech',
-        max_fees: 8.15,
-        min_pac: 20.5
+        maxFees: 8.15,
+        minPackage: 20.5
     },
 
     {
@@ -52,8 +52,8 @@ const data = [
         state: 'Odisha',
         exam: ['JEE MAINS'],
         course: 'B.Tech',
-        max_fees: 8.15,
-        min_pac: 40.5
+        maxFees: 8.15,
+        minPackage: 40.5
     },
     {
         name: "National Institute of Technology",
@@ -61,8 +61,8 @@ const data = [
         state: 'Gujarat',
         exam: ['JEE MAINS'],
         course: 'B.Tech',
-        max_fees: 9.15,
-        min_pac: 25.5
+        maxFees: 9.15,
+        minPackage: 25.5
     },
     {
         name: "DIT University",
@@ -70,8 +70,8 @@ const data = [
         state: 'Uttarakhand',
         exam: ['10+2'],
         course: 'B.Arch',
-        max_fees: 12.15,
-        min_pac: 40.5
+        maxFees: 12.15,
+        minPackage: 40.5
     },
     {
         name: "All India Institute of Medical Sciences",
@@ -79,8 +79,8 @@ const data = [
         state: 'Chhattisgarh',
         exam: ['10+2', 'NEET'],
         course: 'MBBS',
-        max_fees: 0.815,
-        min_pac: 24.5
+        maxFees: 0.815,
+        minPackage: 24.5
     },
 ]
 // console.log(data)
